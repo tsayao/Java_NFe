@@ -193,27 +193,36 @@
                 <version>1.8.0</version>
                 <executions>
                     <execution>
-                        <id>nfeinutilizacao4</id>
+                        <id>NFeInutilizacao</id>
                         <goals>
                             <goal>wsdl2code</goal>
                         </goals>
                         <configuration>
-                            <unpackClasses>true</unpackClasses>
                             <databindingName>xmlbeans</databindingName>
-                            <wsdlFile>schemas/nfeinutilizacao4.wsdl</wsdlFile>
-                            <packageName>br.com.swconsultoria.nfe.wsdl</packageName>
+                            <wsdlFile>wsdl/nfeinutilizacao4.wsdl</wsdlFile>
+                            <packageName>br.com.swconsultoria.nfe.wsdl.NFeInutilizacao</packageName>
                         </configuration>
                     </execution>
                     <execution>
-                        <id>NfeConsulta4</id>
+                        <id>NFeConsultaProtocolo</id>
                         <goals>
                             <goal>wsdl2code</goal>
                         </goals>
                         <configuration>
-                            <unpackClasses>true</unpackClasses>
                             <databindingName>xmlbeans</databindingName>
-                            <wsdlFile>schemas/NfeConsulta4.wsdl</wsdlFile>
-                            <packageName>br.com.swconsultoria.nfe.wsdl</packageName>
+                            <wsdlFile>wsdl/nfeconsultaprotocolo4.wsdl</wsdlFile>
+                            <packageName>br.com.swconsultoria.nfe.wsdl.NFeConsultaProtocolo</packageName>
+                        </configuration>
+                    </execution>
+                    <execution>
+                        <id>NFeConsultaProtocoloMS</id>
+                        <goals>
+                            <goal>wsdl2code</goal>
+                        </goals>
+                        <configuration>
+                            <databindingName>xmlbeans</databindingName>
+                            <wsdlFile>wsdl/nfeconsultaprotocolo4ms.wsdl</wsdlFile>
+                            <packageName>br.com.swconsultoria.nfe.wsdl.NFeConsultaProtocoloMS</packageName>
                         </configuration>
                     </execution>
                     <execution>
@@ -222,58 +231,97 @@
                             <goal>wsdl2code</goal>
                         </goals>
                         <configuration>
-                            <unpackClasses>true</unpackClasses>
                             <databindingName>xmlbeans</databindingName>
-                            <wsdlFile>schemas/NfeStatusServico4.wsdl</wsdlFile>
-                            <packageName>br.com.swconsultoria.nfe.wsdl</packageName>
+                            <wsdlFile>wsdl/nfestatusservico4.wsdl</wsdlFile>
+                            <packageName>br.com.swconsultoria.nfe.wsdl.NFeStatusServico4</packageName>
                         </configuration>
                     </execution>
                     <execution>
-                        <id>cadconsultacadastro4</id>
+                        <id>NfeStatusServico4MS</id>
                         <goals>
                             <goal>wsdl2code</goal>
                         </goals>
                         <configuration>
-                            <unpackClasses>true</unpackClasses>
                             <databindingName>xmlbeans</databindingName>
-                            <wsdlFile>schemas/cadconsultacadastro4.wsdl</wsdlFile>
-                            <packageName>br.com.swconsultoria.nfe.wsdl</packageName>
+                            <wsdlFile>wsdl/nfestatusservico4ms.wsdl</wsdlFile>
+                            <packageName>br.com.swconsultoria.nfe.wsdl.NFeStatusServico4MS</packageName>
                         </configuration>
                     </execution>
                     <execution>
-                        <id>recepcaoevento4</id>
+                        <id>CadConsultaCadastro</id>
                         <goals>
                             <goal>wsdl2code</goal>
                         </goals>
                         <configuration>
-                            <unpackClasses>true</unpackClasses>
                             <databindingName>xmlbeans</databindingName>
-                            <wsdlFile>schemas/recepcaoevento4.wsdl</wsdlFile>
-                            <packageName>br.com.swconsultoria.nfe.wsdl</packageName>
+                            <wsdlFile>wsdl/cadconsultacadastro4.wsdl</wsdlFile>
+                            <packageName>br.com.swconsultoria.nfe.wsdl.CadConsultaCadastro</packageName>
                         </configuration>
                     </execution>
                     <execution>
-                        <id>NFeAutorizacao4</id>
+                        <id>CadConsultaCadastroMS</id>
                         <goals>
                             <goal>wsdl2code</goal>
                         </goals>
                         <configuration>
-                            <unpackClasses>true</unpackClasses>
                             <databindingName>xmlbeans</databindingName>
-                            <wsdlFile>schemas/NFeAutorizacao4.wsdl</wsdlFile>
-                            <packageName>br.com.swconsultoria.nfe.wsdl</packageName>
+                            <wsdlFile>wsdl/cadconsultacadastro4ms.wsdl</wsdlFile>
+                            <packageName>br.com.swconsultoria.nfe.wsdl.CadConsultaCadastro.ms</packageName>
                         </configuration>
                     </execution>
                     <execution>
-                        <id>NFeRetAutorizacao4</id>
+                        <id>CadConsultaCadastroRS</id>
                         <goals>
                             <goal>wsdl2code</goal>
                         </goals>
                         <configuration>
-                            <unpackClasses>true</unpackClasses>
                             <databindingName>xmlbeans</databindingName>
-                            <wsdlFile>schemas/NFeRetAutorizacao4.wsdl</wsdlFile>
-                            <packageName>br.com.swconsultoria.nfe.wsdl</packageName>
+                            <wsdlFile>wsdl/cadconsultacadastro4rs.wsdl</wsdlFile>
+                            <packageName>br.com.swconsultoria.nfe.wsdl.CadConsultaCadastro.rs</packageName>
+                        </configuration>
+                    </execution>
+                    <execution>
+                        <id>NFeRecepcaoEvento</id>
+                        <goals>
+                            <goal>wsdl2code</goal>
+                        </goals>
+                        <configuration>
+                            <databindingName>xmlbeans</databindingName>
+                            <wsdlFile>wsdl/nferecepcaoevento4.wsdl</wsdlFile>
+                            <packageName>br.com.swconsultoria.nfe.wsdl.NFeRecepcaoEvento</packageName>
+                        </configuration>
+                    </execution>
+                    <execution>
+                        <id>NFeAutorizacao</id>
+                        <goals>
+                            <goal>wsdl2code</goal>
+                        </goals>
+                        <configuration>
+                            <databindingName>xmlbeans</databindingName>
+                            <wsdlFile>wsdl/nfeautorizacao4.wsdl</wsdlFile>
+                            <packageName>br.com.swconsultoria.nfe.wsdl.NFeAutorizacao</packageName>
+                        </configuration>
+                    </execution>
+                    <execution>
+                        <id>NFeRetAutorizacao</id>
+                        <goals>
+                            <goal>wsdl2code</goal>
+                        </goals>
+                        <configuration>
+                            <databindingName>xmlbeans</databindingName>
+                            <wsdlFile>wsdl/nfeautorizacao4.wsdl</wsdlFile>
+                            <packageName>br.com.swconsultoria.nfe.wsdl.NFeRetAutorizacao</packageName>
+                        </configuration>
+                    </execution>
+                    <execution>
+                        <id>NFeDistribuicaoDFe</id>
+                        <goals>
+                            <goal>wsdl2code</goal>
+                        </goals>
+                        <configuration>
+                            <databindingName>xmlbeans</databindingName>
+                            <wsdlFile>wsdl/nfedistribuicaodfe.wsdl</wsdlFile>
+                            <packageName>br.com.swconsultoria.nfe.wsdl.NFeDistribuicaoDFe</packageName>
                         </configuration>
                     </execution>
                 </executions>
