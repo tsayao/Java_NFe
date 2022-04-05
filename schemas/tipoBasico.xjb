@@ -1,0 +1,13 @@
+<jaxb:bindings xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:jaxb="http://java.sun.com/xml/ns/jaxb" version="2.1">
+    <!-- Configurações globais de binding -->
+    <jaxb:bindings>
+        <jaxb:globalBindings typesafeEnumMaxMembers="2000" localScoping="toplevel" typesafeEnumMemberName="generateName" />
+    </jaxb:bindings>
+
+    <!-- Configurações espeficicas para 'tiposBasico_v1.03.xsd' -->
+    <jaxb:bindings schemaLocation="tiposBasico_v1.03.xsd">
+        <jaxb:bindings node="xs:simpleType[@name='Tpais']">
+            <jaxb:typesafeEnumClass name="Tpais"/>
+        </jaxb:bindings>
+    </jaxb:bindings>
+</jaxb:bindings>

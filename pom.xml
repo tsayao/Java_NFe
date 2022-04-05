@@ -199,11 +199,16 @@
                             <goal>generate</goal>
                         </goals>
                         <configuration>
+                            <args>
+                                <arg>-XautoNameResolution</arg>
+                            </args>
                             <schemaDirectory>schemas</schemaDirectory>
+                            <bindingDirectory>schemas</bindingDirectory>
                             <schemaIncludes>
                                 <include>CCe_v1.00.xsd</include>
                             </schemaIncludes>
                             <generatePackage>br.com.swconsultoria.nfe.schema.cce</generatePackage>
+                            <forceRegenerate>true</forceRegenerate>
                         </configuration>
                     </execution>
                     <execution>
@@ -212,11 +217,16 @@
                             <goal>generate</goal>
                         </goals>
                         <configuration>
+                            <args>
+                                <arg>-XautoNameResolution</arg>
+                            </args>
                             <schemaDirectory>schemas</schemaDirectory>
+                            <bindingExcludes>*/**</bindingExcludes>
                             <schemaIncludes>
                                 <include>distDFeInt_v1.01.xsd</include>
                             </schemaIncludes>
                             <generatePackage>br.com.swconsultoria.nfe.schema.distdfeint</generatePackage>
+                            <forceRegenerate>true</forceRegenerate>
                         </configuration>
                     </execution>
                     <execution>
@@ -225,11 +235,15 @@
                             <goal>generate</goal>
                         </goals>
                         <configuration>
+                            <args>
+                                <arg>-XautoNameResolution</arg>
+                            </args>
                             <schemaDirectory>schemas</schemaDirectory>
                             <schemaIncludes>
                                 <include>envCCe_v1.00.xsd</include>
                             </schemaIncludes>
                             <generatePackage>br.com.swconsultoria.nfe.schema.envcce</generatePackage>
+                            <forceRegenerate>true</forceRegenerate>
                         </configuration>
                     </execution>
                     <execution>
@@ -238,11 +252,15 @@
                             <goal>generate</goal>
                         </goals>
                         <configuration>
+                            <args>
+                                <arg>-XautoNameResolution</arg>
+                            </args>
                             <schemaDirectory>schemas</schemaDirectory>
                             <schemaIncludes>
                                 <include>envConfRecebto_v1.00.xsd</include>
                             </schemaIncludes>
                             <generatePackage>br.com.swconsultoria.nfe.schema.envConfRecebto</generatePackage>
+                            <forceRegenerate>true</forceRegenerate>
                         </configuration>
                     </execution>
                     <execution>
@@ -251,11 +269,15 @@
                             <goal>generate</goal>
                         </goals>
                         <configuration>
+                            <args>
+                                <arg>-XautoNameResolution</arg>
+                            </args>
                             <schemaDirectory>schemas</schemaDirectory>
                             <schemaIncludes>
                                 <include>envEPEC_v1.00.xsd</include>
                             </schemaIncludes>
                             <generatePackage>br.com.swconsultoria.nfe.schema.envEpec</generatePackage>
+                            <forceRegenerate>true</forceRegenerate>
                         </configuration>
                     </execution>
                     <execution>
@@ -264,11 +286,15 @@
                             <goal>generate</goal>
                         </goals>
                         <configuration>
+                            <args>
+                                <arg>-XautoNameResolution</arg>
+                            </args>
                             <schemaDirectory>schemas</schemaDirectory>
                             <schemaIncludes>
                                 <include>envEventoCancNFe_v1.00.xsd</include>
                             </schemaIncludes>
                             <generatePackage>br.com.swconsultoria.nfe.schema.envEventoCancNFe</generatePackage>
+                            <forceRegenerate>true</forceRegenerate>
                         </configuration>
                     </execution>
                     <execution>
@@ -277,11 +303,15 @@
                             <goal>generate</goal>
                         </goals>
                         <configuration>
+                            <args>
+                                <arg>-XautoNameResolution</arg>
+                            </args>
                             <schemaDirectory>schemas</schemaDirectory>
                             <schemaIncludes>
                                 <include>envEventoCancSubst_v1.00.xsd</include>
                             </schemaIncludes>
                             <generatePackage>br.com.swconsultoria.nfe.schema.envEventoCancSubst</generatePackage>
+                            <forceRegenerate>true</forceRegenerate>
                         </configuration>
                     </execution>
                     <execution>
@@ -290,11 +320,15 @@
                             <goal>generate</goal>
                         </goals>
                         <configuration>
+                            <args>
+                                <arg>-XautoNameResolution</arg>
+                            </args>
                             <schemaDirectory>schemas</schemaDirectory>
                             <schemaIncludes>
                                 <include>EPEC_v1.00.xsd</include>
                             </schemaIncludes>
                             <generatePackage>br.com.swconsultoria.nfe.schema.epec</generatePackage>
+                            <forceRegenerate>true</forceRegenerate>
                         </configuration>
                     </execution>
                     <execution>
@@ -303,11 +337,15 @@
                             <goal>generate</goal>
                         </goals>
                         <configuration>
+                            <args>
+                                <arg>-XautoNameResolution</arg>
+                            </args>
                             <schemaDirectory>schemas</schemaDirectory>
                             <schemaIncludes>
                                 <include>eventoCancNFe_v1.00.xsd</include>
                             </schemaIncludes>
                             <generatePackage>br.com.swconsultoria.nfe.schema.eventoCancNFe</generatePackage>
+                            <forceRegenerate>true</forceRegenerate>
                         </configuration>
                     </execution>
                     <execution>
@@ -316,11 +354,15 @@
                             <goal>generate</goal>
                         </goals>
                         <configuration>
+                            <args>
+                                <arg>-XautoNameResolution</arg>
+                            </args>
                             <schemaDirectory>schemas</schemaDirectory>
                             <schemaIncludes>
                                 <include>eventoCancSubst_v1.00.xsd</include>
                             </schemaIncludes>
                             <generatePackage>br.com.swconsultoria.nfe.schema.eventoCancSubst</generatePackage>
+                            <forceRegenerate>true</forceRegenerate>
                         </configuration>
                     </execution>
                     <execution>
@@ -329,11 +371,15 @@
                             <goal>generate</goal>
                         </goals>
                         <configuration>
+                            <args>
+                                <arg>-XautoNameResolution</arg>
+                            </args>
                             <schemaDirectory>schemas</schemaDirectory>
                             <schemaIncludes>
                                 <include>consCad_v2.00.xsd</include>
                             </schemaIncludes>
                             <generatePackage>br.com.swconsultoria.nfe.schema.consCad</generatePackage>
+                            <forceRegenerate>true</forceRegenerate>
                         </configuration>
                     </execution>
                     <execution>
@@ -342,11 +388,16 @@
                             <goal>generate</goal>
                         </goals>
                         <configuration>
+                            <args>
+                                <arg>-XautoNameResolution</arg>
+                            </args>
                             <schemaDirectory>schemas</schemaDirectory>
                             <schemaIncludes>
                                 <include>resEvento_v1.01.xsd</include>
                             </schemaIncludes>
+                            <bindingExcludes>*/**</bindingExcludes>
                             <generatePackage>br.com.swconsultoria.nfe.schema.resevento</generatePackage>
+                            <forceRegenerate>true</forceRegenerate>
                         </configuration>
                     </execution>
                     <execution>
@@ -355,11 +406,16 @@
                             <goal>generate</goal>
                         </goals>
                         <configuration>
+                            <args>
+                                <arg>-XautoNameResolution</arg>
+                            </args>
                             <schemaDirectory>schemas</schemaDirectory>
                             <schemaIncludes>
                                 <include>resNFe_v1.01.xsd</include>
                             </schemaIncludes>
+                            <bindingExcludes>*/**</bindingExcludes>
                             <generatePackage>br.com.swconsultoria.nfe.schema.resnfe</generatePackage>
+                            <forceRegenerate>true</forceRegenerate>
                         </configuration>
                     </execution>
                     <execution>
@@ -368,11 +424,16 @@
                             <goal>generate</goal>
                         </goals>
                         <configuration>
+                            <args>
+                                <arg>-XautoNameResolution</arg>
+                            </args>
                             <schemaDirectory>schemas</schemaDirectory>
                             <schemaIncludes>
                                 <include>retDistDFeInt_v1.01.xsd</include>
                             </schemaIncludes>
+                            <bindingExcludes>*/**</bindingExcludes>
                             <generatePackage>br.com.swconsultoria.nfe.schema.retdistdfeint</generatePackage>
+                            <forceRegenerate>true</forceRegenerate>
                         </configuration>
                     </execution>
                     <execution>
@@ -381,11 +442,15 @@
                             <goal>generate</goal>
                         </goals>
                         <configuration>
+                            <args>
+                                <arg>-XautoNameResolution</arg>
+                            </args>
                             <schemaDirectory>schemas</schemaDirectory>
                             <schemaIncludes>
                                 <include>retEnvCCe_v1.00.xsd</include>
                             </schemaIncludes>
                             <generatePackage>br.com.swconsultoria.nfe.schema.retenvcce</generatePackage>
+                            <forceRegenerate>true</forceRegenerate>
                         </configuration>
                     </execution>
                     <execution>
@@ -394,11 +459,15 @@
                             <goal>generate</goal>
                         </goals>
                         <configuration>
+                            <args>
+                                <arg>-XautoNameResolution</arg>
+                            </args>
                             <schemaDirectory>schemas</schemaDirectory>
                             <schemaIncludes>
                                 <include>retEnvConfRecebto_v1.00.xsd</include>
                             </schemaIncludes>
                             <generatePackage>br.com.swconsultoria.nfe.schema.retEnvConfRecebto</generatePackage>
+                            <forceRegenerate>true</forceRegenerate>
                         </configuration>
                     </execution>
                     <execution>
@@ -407,11 +476,15 @@
                             <goal>generate</goal>
                         </goals>
                         <configuration>
+                            <args>
+                                <arg>-XautoNameResolution</arg>
+                            </args>
                             <schemaDirectory>schemas</schemaDirectory>
                             <schemaIncludes>
                                 <include>retEnvEPEC_v1.00.xsd</include>
                             </schemaIncludes>
                             <generatePackage>br.com.swconsultoria.nfe.schema.retEnvEpec</generatePackage>
+                            <forceRegenerate>true</forceRegenerate>
                         </configuration>
                     </execution>
                     <execution>
@@ -420,11 +493,15 @@
                             <goal>generate</goal>
                         </goals>
                         <configuration>
+                            <args>
+                                <arg>-XautoNameResolution</arg>
+                            </args>
                             <schemaDirectory>schemas</schemaDirectory>
                             <schemaIncludes>
                                 <include>retEnvEventoCancNFe_v1.00.xsd</include>
                             </schemaIncludes>
                             <generatePackage>br.com.swconsultoria.nfe.schema.retEnvEventoCancNFe</generatePackage>
+                            <forceRegenerate>true</forceRegenerate>
                         </configuration>
                     </execution>
                     <execution>
@@ -433,11 +510,15 @@
                             <goal>generate</goal>
                         </goals>
                         <configuration>
+                            <args>
+                                <arg>-XautoNameResolution</arg>
+                            </args>
                             <schemaDirectory>schemas</schemaDirectory>
                             <schemaIncludes>
                                 <include>retConsCad_v2.00.xsd</include>
                             </schemaIncludes>
                             <generatePackage>br.com.swconsultoria.nfe.schema.retConsCad</generatePackage>
+                            <forceRegenerate>true</forceRegenerate>
                         </configuration>
                     </execution>
                     <!-- SCHEMA 4 -->
@@ -447,11 +528,16 @@
                             <goal>generate</goal>
                         </goals>
                         <configuration>
+                            <args>
+                                <arg>-XautoNameResolution</arg>
+                            </args>
                             <schemaDirectory>schemas</schemaDirectory>
                             <schemaIncludes>
                                 <include>consReciNFe_v4.00.xsd</include>
                             </schemaIncludes>
+                            <bindingExcludes>*/**</bindingExcludes>
                             <generatePackage>br.com.swconsultoria.nfe.schema_4.consReciNFe</generatePackage>
+                            <forceRegenerate>true</forceRegenerate>
                         </configuration>
                     </execution>
                     <execution>
@@ -460,11 +546,16 @@
                             <goal>generate</goal>
                         </goals>
                         <configuration>
+                            <args>
+                                <arg>-XautoNameResolution</arg>
+                            </args>
                             <schemaDirectory>schemas</schemaDirectory>
                             <schemaIncludes>
                                 <include>consSitNFe_v4.00.xsd</include>
                             </schemaIncludes>
+                            <bindingExcludes>*/**</bindingExcludes>
                             <generatePackage>br.com.swconsultoria.nfe.schema_4.consSitNFe</generatePackage>
+                            <forceRegenerate>true</forceRegenerate>
                         </configuration>
                     </execution>
                     <execution>
@@ -473,10 +564,14 @@
                             <goal>generate</goal>
                         </goals>
                         <configuration>
+                            <args>
+                                <arg>-XautoNameResolution</arg>
+                            </args>
                             <schemaDirectory>schemas</schemaDirectory>
                             <schemaIncludes>
                                 <include>consStatServ_v4.00.xsd</include>
                             </schemaIncludes>
+                            <bindingExcludes>*/**</bindingExcludes>
                             <generatePackage>br.com.swconsultoria.nfe.schema_4.consStatServ</generatePackage>
                         </configuration>
                     </execution>
@@ -486,11 +581,16 @@
                             <goal>generate</goal>
                         </goals>
                         <configuration>
+                            <args>
+                                <arg>-XautoNameResolution</arg>
+                            </args>
                             <schemaDirectory>schemas</schemaDirectory>
                             <schemaIncludes>
                                 <include>enviNFe_v4.00.xsd</include>
                             </schemaIncludes>
+                            <bindingExcludes>*/**</bindingExcludes>
                             <generatePackage>br.com.swconsultoria.nfe.schema_4.enviNFe</generatePackage>
+                            <forceRegenerate>true</forceRegenerate>
                         </configuration>
                     </execution>
                     <execution>
@@ -499,11 +599,16 @@
                             <goal>generate</goal>
                         </goals>
                         <configuration>
+                            <args>
+                                <arg>-XautoNameResolution</arg>
+                            </args>
                             <schemaDirectory>schemas</schemaDirectory>
                             <schemaIncludes>
                                 <include>inutNFe_v4.00.xsd</include>
                             </schemaIncludes>
+                            <bindingExcludes>*/**</bindingExcludes>
                             <generatePackage>br.com.swconsultoria.nfe.schema_4.inutNFe</generatePackage>
+                            <forceRegenerate>true</forceRegenerate>
                         </configuration>
                     </execution>
                     <execution>
@@ -512,11 +617,16 @@
                             <goal>generate</goal>
                         </goals>
                         <configuration>
+                            <args>
+                                <arg>-XautoNameResolution</arg>
+                            </args>
                             <schemaDirectory>schemas</schemaDirectory>
                             <schemaIncludes>
                                 <include>retConsReciNFe_v4.00.xsd</include>
                             </schemaIncludes>
+                            <bindingExcludes>*/**</bindingExcludes>
                             <generatePackage>br.com.swconsultoria.nfe.schema_4.retConsReciNFe</generatePackage>
+                            <forceRegenerate>true</forceRegenerate>
                         </configuration>
                     </execution>
                     <execution>
@@ -525,11 +635,16 @@
                             <goal>generate</goal>
                         </goals>
                         <configuration>
+                            <args>
+                                <arg>-XautoNameResolution</arg>
+                            </args>
                             <schemaDirectory>schemas</schemaDirectory>
                             <schemaIncludes>
                                 <include>retConsSitNFe_v4.00.xsd</include>
                             </schemaIncludes>
+                            <bindingExcludes>*/**</bindingExcludes>
                             <generatePackage>br.com.swconsultoria.nfe.schema_4.retConsSitNFe</generatePackage>
+                            <forceRegenerate>true</forceRegenerate>
                         </configuration>
                     </execution>
                     <execution>
@@ -538,11 +653,16 @@
                             <goal>generate</goal>
                         </goals>
                         <configuration>
+                            <args>
+                                <arg>-XautoNameResolution</arg>
+                            </args>
                             <schemaDirectory>schemas</schemaDirectory>
                             <schemaIncludes>
                                 <include>retConsStatServ_v4.00.xsd</include>
                             </schemaIncludes>
+                            <bindingExcludes>*/**</bindingExcludes>
                             <generatePackage>br.com.swconsultoria.nfe.schema_4.retConsStatServ</generatePackage>
+                            <forceRegenerate>true</forceRegenerate>
                         </configuration>
                     </execution>
                     <execution>
@@ -551,11 +671,16 @@
                             <goal>generate</goal>
                         </goals>
                         <configuration>
+                            <args>
+                                <arg>-XautoNameResolution</arg>
+                            </args>
                             <schemaDirectory>schemas</schemaDirectory>
                             <schemaIncludes>
                                 <include>retEnviNFe_v4.00.xsd</include>
                             </schemaIncludes>
+                            <bindingExcludes>*/**</bindingExcludes>
                             <generatePackage>br.com.swconsultoria.nfe.schema_4.retEnviNFe</generatePackage>
+                            <forceRegenerate>true</forceRegenerate>
                         </configuration>
                     </execution>
                     <execution>
@@ -564,11 +689,16 @@
                             <goal>generate</goal>
                         </goals>
                         <configuration>
+                            <args>
+                                <arg>-XautoNameResolution</arg>
+                            </args>
                             <schemaDirectory>schemas</schemaDirectory>
                             <schemaIncludes>
                                 <include>retInutNFe_v4.00.xsd</include>
                             </schemaIncludes>
+                            <bindingExcludes>*/**</bindingExcludes>
                             <generatePackage>br.com.swconsultoria.nfe.schema_4.retInutNFe</generatePackage>
+                            <forceRegenerate>true</forceRegenerate>
                         </configuration>
                     </execution>
                 </executions>
@@ -595,7 +725,7 @@
                             <goal>wsdl2code</goal>
                         </goals>
                         <configuration>
-                            <databindingName>xmlbeans</databindingName>
+                            <databindingName>xlmbeans</databindingName>
                             <wsdlFile>wsdl/nfeconsultaprotocolo4.wsdl</wsdlFile>
                             <packageName>br.com.swconsultoria.nfe.wsdl.NFeConsultaProtocolo</packageName>
                         </configuration>
